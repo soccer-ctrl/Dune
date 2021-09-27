@@ -18,6 +18,7 @@ Build Instructions:
     Make a build directory in the top level directory: mkdir build && cd build
     Compile: cmake .. && make
     Run it: ./DuneGame.
+    
 
 Game Description:
 
