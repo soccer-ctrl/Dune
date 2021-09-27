@@ -93,13 +93,13 @@ void Game::Run(Controller const &controller, Renderer &renderer,
     //Check if game has ended
 
     //If the worm has eaten the player
-    if(Collision(player.x, player.y, sandWorm.head_x, sandWorm.head_y)){
+    if(Collision(static_cast<int>(player.x), static_cast<int>(player.y), static_cast<int>(sandWorm.head_x), static_cast<int>(sandWorm.head_y))){
       player.alive = false;
       std::cout<<"Worm has eaten player!"<<endl;
       break;
     }
     //If the player has finished the game
-    if(Collision(player.x, player.y, finish.x, finish.y)){
+    if(Collision(static_cast<int>(player.x), static_cast<int>(player.y), static_cast<int>(finish.x), static_cast<int>(finish.y))){
       player.won = true;
       std::cout<<"Player has won!"<<std::endl;
       break;
