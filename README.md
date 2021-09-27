@@ -25,10 +25,17 @@ Your ornithopter has crash-landed in the desserts of Arrakis. You must make it t
 
 
 
+
 The crash site, where you begin, is on the top left edge of the map.
+
 The Fremen stroghold, where you can find safety and win the game, is on the bottom right corner of the map.
+
 The rocky outcrops are marked in grey.
+
+Deploy your thumper by pressing the spacebar.
+
 You control your movement using the arrow keys.
+
 To stop moving (eg if you want to stop on a rocky outcrop), simply press the opposite direction key to your direction of movement. E.g. if you are moving right and you want to stop, simply press the left arrow key once.
 
 
