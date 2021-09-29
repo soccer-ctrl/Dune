@@ -28,25 +28,24 @@ Your ornithopter has crash-landed in the desserts of Arrakis. You must make it t
 
 Game Instructions:
 
-    - The crash site, where you begin, is on the top left edge of the map.
+- The crash site, where you begin, is on the top left edge of the map.
 
-    - The Fremen stroghold, where you can find safety and win the game, is on the bottom right corner of the map.
+- The Fremen stroghold, where you can find safety and win the game, is on the bottom right corner of the map.
 
-    - The rocky outcrops are marked in grey.
+- The rocky outcrops are marked in grey.
 
-    - Deploy your thumper by pressing the spacebar.
+- Deploy your thumper by pressing the spacebar.
 
-    - You control your movement using the arrow keys.
+- You control your movement using the arrow keys.
 
-    - To stop moving (eg if you want to stop on a rocky outcrop), simply press the opposite direction key to your direction of movement. E.g. if you are moving         right and you want to stop, simply press the left arrow key once.
+- To stop moving (eg if you want to stop on a rocky outcrop), simply press the opposite direction key to your direction of movement. E.g. if you are moving         right and you want to stop, simply press the left arrow key once.
 
 
 Overview of Code Structure
 
-    The game code consists of five main classes: Game, SandWorm, Player, Controller, and Renderer. There is also a helper file named Helper.
+The game code consists of five main classes: Game, SandWorm, Player, Controller, and Renderer. There is also a helper file named Helper.
 
-    To start, main creates a Renderer, a Controller, and a Game object. The Game object stores a Snadworm and Player oject as part of the state. The game loop is   started by main calling Game::Run to start the game loop.
+To start, main creates a Renderer, a Controller, and a Game object. The Game object stores a Snadworm and Player oject as part of the state. The game loop is   started by main calling Game::Run to start the game loop.
 
-
-    To begin the game, main creates a Controller, a Game, and a Renderer object. Game stores a Snake object as part of the state.
-    main calls Game::Run to start the game loop.
+To begin the game, main creates a Controller, a Game, and a Renderer object. Game stores a Snake object as part of the state.
+main calls Game::Run to start the game loop.
