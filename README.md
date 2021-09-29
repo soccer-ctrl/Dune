@@ -1,6 +1,6 @@
 # Dune
 
-A game based on Frank Herbert's novel Dune
+A game based on Frank Herbert's Dune
 
 A  modification of the classic Snake game from CppND-Capstone-Snake-Game.
 
@@ -55,6 +55,18 @@ This is the entry point for the program. The main function sets the window size,
 
 sandworm.h and sandWorm.cpp
 
-These files define the sandWorm class which contains attributes to keep track of the sandWorm speed and location. Just as in the CppND-Capstone-Snake-Game project, there are methods to update the sandWorm state, which are called from the Game::Update method. The sandWorm head and body are treated separately; the head is stored using float coordinates, and the body is stored using a vector of int cell coordinates. The snadWorm::UpdateHead method updates the head location using the sandWorm's speed. If the head has passed into a new cell, then the body is updated with sandWorm::UpdateBody.
+These files define the SandWorm class which contains attributes to keep track of the sandWorm speed and location. Just as in the CppND-Capstone-Snake-Game project, there are methods to update the sandWorm state, which are called from the Game::Update method. The sandWorm head and body are treated separately; the head is stored using float coordinates, and the body is stored using a vector of int cell coordinates. The sandWorm::UpdateHead method updates the head location using the sandWorm's speed. If the head has passed into a new cell, then the body is updated with sandWorm::UpdateBody.
+
+player.h and player.cpp
+
+These files define the Playerclass, which conatains attributes to keep track of the player speed and location. There are methods to update the player state, called from the Game::Update method.
+
+game.h and game.cpp
+
+These files define the Game class and the game loop: Game::Run. The Game class stores the state of the game, including instances of a SandWorm object and a PLayer object, the locations of rocks, the time remaining, and the location of any thumpers that have beedn deplyed. Aside from the game loop, the Game class also contains a method to update the state of the game (Game::Update).
+
+render.h and render.cpp
+
+These files define the Renderer class which uses the SDL library to render the game to the screen. The Renderer class constructor creates the SDL window and an SDL renderer object that can draw in the window. The Renderer::Render method draws the player, the sandWorm and the rocks in the window using the SDL renderer.
 
 
