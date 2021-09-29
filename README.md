@@ -41,7 +41,7 @@ Game Instructions:
 - To stop moving (eg if you want to stop on a rocky outcrop), simply press the opposite direction key to your direction of movement. E.g. if you are moving         right and you want to stop, simply press the left arrow key once.
 
 
-Overview of Code Structure
+Overview of Code Structure:
 
 The game code consists of five main classes: Game, SandWorm, Player, Controller, and Renderer. There is also a helper file named Helper.
 
@@ -76,3 +76,13 @@ These files define the Controller class. This class handles keyboard input using
 helper.h and helper.cpp
 
 These files contain helper functions and data structures.
+
+
+Explanation of how this submission satisfies the necessary rubric:
+
+1. The project demonstrates an understanding of C++ functions and control structures.
+
+This is shown throughout the code. Some examples are in game.cpp line 44, the game while loop
+Loops in game.cpp lines 96, 102, 108
+Fucnctions being called in game.cpp, lines 143 and 144
+
