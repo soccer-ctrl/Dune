@@ -41,3 +41,12 @@ Game Instructions:
 - To stop moving (eg if you want to stop on a rocky outcrop), simply press the opposite direction key to your direction of movement. E.g. if you are moving right and you want to stop, simply press the left arrow key once.
 
 
+Overview of Code Structure
+
+The game code consists of five main classes: Game, SandWorm, Player, Controller, and Renderer. There is also a helper file named Helper.
+
+To start, main creates a Renderer, a Controller, and a Game object. The Game object stores a Snadworm and Player oject as part of the state. The game loop is started by main calling Game::Run to start the game loop.
+
+
+    To begin, main creates a Controller, a Game, and a Renderer object. Game stores a Snake object as part of the state.
+    main calls Game::Run to start the game loop.
