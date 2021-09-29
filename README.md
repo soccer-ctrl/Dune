@@ -1,6 +1,6 @@
 # Dune
 
-A game based on Frank Herbert's Dune
+A game based on Frank Herbert's novel Dune
 
 A  modification of the classic Snake game from CppND-Capstone-Snake-Game.
 
