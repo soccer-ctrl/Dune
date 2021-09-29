@@ -86,3 +86,23 @@ This is shown throughout the code. Some examples are in game.cpp line 44, the ga
 Loops in game.cpp lines 96, 102, 108
 Fucnctions being called in game.cpp, lines 143 and 144
 
+2. The project accepts user input and processes the input.
+
+User inout from the keyboard is used to control the player direction. This is shown in controller.cpp, in the Controller::HandleInput function (line 25)
+
+3. The project uses Object Oriented Programming techniques.
+
+The controller.h / controller.cpp, game.h / game.cpp, player.h / player.cpp, sandWorm.h / sandWorm.cpp all define classes, and instances of these objects are used throughout this project. For example in game.h instances of game and player classes are declared in lines 19 and 20.
+
+4. Classes use appropriate access specifiers for class members.
+
+Examples of this are in game.h lines 12 and 18, which explicitly specify public and private data members respectively.
+
+5. Classes use appropriate access specifiers for class members.
+
+Examples of this are in Classes use appropriate access specifiers for class members.layer.h, lines 11 to 13, and sandWorm.h lines 11 to 15.
+
+6. Overloaded functions allow the same function to operate on different parameters.
+Examples of this are given by the Controller::HandleInput function (see controller.h, lines 11 and 12), and the Controller::ChangeDirection function (see controller.h lines 15 and 17)
+
+7. 
