@@ -69,4 +69,8 @@ render.h and render.cpp
 
 These files define the Renderer class which uses the SDL library to render the game to the screen. The Renderer class constructor creates the SDL window and an SDL renderer object that can draw in the window. The Renderer::Render method draws the player, the sandWorm and the rocks in the window using the SDL renderer.
 
+controller.h and controller.cpp
+These files define the Controller class. This class handles keyboard input using the SDL libary, and it sets the player's direction based on the keyboard input, and sets the sandWorm's direction based on the location of the player and rocks.
 
+helper.h and helper.cpp
+These files contain helper functions and data structures.
