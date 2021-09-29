@@ -47,5 +47,14 @@ The game code consists of five main classes: Game, SandWorm, Player, Controller,
 
 To start, main creates a Renderer, a Controller, and a Game object. The Game object stores a Snadworm and Player oject as part of the state. The game loop is   started by main calling Game::Run to start the game loop.
 
-To begin the game, main creates a Controller, a Game, and a Renderer object. Game stores a Snake object as part of the state.
-main calls Game::Run to start the game loop.
+To begin the game, main creates a Controller, a Game, and a Renderer object. Game stores SandWorm and Player objects as part of the state. Game also defines positions on the game grid that are defined as rocks. The Player may cross these, but the sandWorm may not. main calls Game::Run to start the game loop.
+
+main.cpp
+
+This is the entry point for the program. The main function sets the window size, and the frames per second. Main also creates Renderer, Controller and Game objects and calls the Game::Run method to start the game loop.
+
+sandworm.h and sandWorm.cpp
+
+These files define the sandWorm class which contains attributes to keep track of the sandWorm speed and location. Just as in the CppND-Capstone-Snake-Game project, there are methods to update the sandWorm state, which are called from the Game::Update method. The sandWorm head and body are treated separately; the head is stored using float coordinates, and the body is stored using a vector of int cell coordinates. The snadWorm::UpdateHead method updates the head location using the sandWorm's speed. If the head has passed into a new cell, then the body is updated with sandWorm::UpdateBody.
+
+
