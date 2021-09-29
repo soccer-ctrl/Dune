@@ -105,4 +105,6 @@ Examples of this are in Classes use appropriate access specifiers for class memb
 6. Overloaded functions allow the same function to operate on different parameters.
 Examples of this are given by the Controller::HandleInput function (see controller.h, lines 11 and 12), and the Controller::ChangeDirection function (see controller.h lines 15 and 17)
 
-7. 
+7. The project makes use of references in function declarations.
+
+Examples of this are given in the Controller::HandleInput function (see controller.h, lines 11 and 12). These functions use pass-by-reference.
