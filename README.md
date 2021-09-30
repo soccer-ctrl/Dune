@@ -40,6 +40,8 @@ Game Instructions:
 
 - To stop moving (eg if you want to stop on a rocky outcrop), simply press the opposite direction key to your direction of movement. E.g. if you are moving         right and you want to stop, simply press the left arrow key once.
 
+- The time remaining and the number of thumpers remaining are displayed in the title bar of the window.
+
 
 Overview of Code Structure:
 
