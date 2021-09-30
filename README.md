@@ -82,8 +82,8 @@ Explanation of how this submission satisfies the necessary rubric:
 
 1. The project demonstrates an understanding of C++ functions and control structures.
 
-This is shown throughout the code. Some examples are in game.cpp line 44, the game while loop
-Loops in game.cpp lines 96, 102, 108
+This is shown throughout the code. Some examples are in game.cpp line 44 (the game while loop)
+Also loops in game.cpp on lines 96, 102, 108
 Fucnctions being called in game.cpp, lines 143 and 144
 
 2. The project accepts user input and processes the input.
