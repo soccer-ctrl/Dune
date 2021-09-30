@@ -6,7 +6,7 @@ A  modification of the classic Snake game from CppND-Capstone-Snake-Game.
 
 Dependencies:
 
-    cmake >= 3.16
+    cmake >= 3.13.0
     make >= 4.2.1
     SDL2 >= 2.0
     gcc/g++ >= 9.3.0
