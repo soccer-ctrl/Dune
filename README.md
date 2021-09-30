@@ -45,7 +45,7 @@ Overview of Code Structure:
 
 The game code consists of five main classes: Game, SandWorm, Player, Controller, and Renderer. There is also a helper file named Helper.
 
-To start, main creates a Renderer, a Controller, and a Game object. The Game object stores a Snadworm and Player oject as part of the state. The game loop is   started by main calling Game::Run to start the game loop.
+To start, main creates a Renderer, a Controller, and a Game object. The Game object stores a Sandworm and Player oject as part of the state. The game loop is   started by main calling Game::Run to start the game loop.
 
 To begin the game, main creates a Controller, a Game, and a Renderer object. Game stores SandWorm and Player objects as part of the state. Game also defines positions on the game grid that are defined as rocks. The Player may cross these, but the sandWorm may not. main calls Game::Run to start the game loop.
 
@@ -88,7 +88,7 @@ Fucnctions being called in game.cpp, lines 143 and 144
 
 2. The project accepts user input and processes the input.
 
-User inout from the keyboard is used to control the player direction. This is shown in controller.cpp, in the Controller::HandleInput function (line 25)
+User input from the keyboard is used to control the player direction. This is shown in controller.cpp, in the Controller::HandleInput function (line 25)
 
 3. The project uses Object Oriented Programming techniques.
 
@@ -100,7 +100,7 @@ Examples of this are in game.h lines 12 and 18, which explicitly specify public 
 
 5. Classes use appropriate access specifiers for class members.
 
-Examples of this are in Classes use appropriate access specifiers for class members.layer.h, lines 11 to 13, and sandWorm.h lines 11 to 15.
+Examples of this are in player.h, lines 11 to 13, and sandWorm.h lines 11 to 15.
 
 6. Overloaded functions allow the same function to operate on different parameters.
 Examples of this are given by the Controller::HandleInput function (see controller.h, lines 11 and 12), and the Controller::ChangeDirection function (see controller.h lines 15 and 17)
