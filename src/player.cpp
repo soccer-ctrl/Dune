@@ -2,7 +2,8 @@
 #include "helper.h"
 #include <cmath>
 #include <iostream>
-#include <vector> 
+#include <vector>
+#include <random> 
 
 
 
@@ -37,13 +38,20 @@ void Player::Update() {
 
 void Player::DeployThumper(std::vector<std::vector<State>> &grid){
   if(numThumpers>0){
+    std::random_device dev;
+    std::mt19937 rng(dev());
+    std::uniform_int_distribution<std::mt19937::result_type> randPos(0,grid.size()-1); // distribution in range [1, 6]
+
+    int rand_x = randPos(rng);
+    int rand_y = randPos(rng);
+
     //We can only deploy a thumper on sand, not on rock(obstacle) or
     //start and finish tiles.
-    if(grid[x][y] ==State::kEmpty){
+    if(grid[rand_x][rand_y] == State::kEmpty){
       thumperDeployed = true;
       std::cout<<"Deploying Thumper"<<std::endl;
-      thumperX = x;
-      thumperY = y;
+      thumperX = rand_x;
+      thumperY = rand_y;
       numThumpers --;
     }
   }
