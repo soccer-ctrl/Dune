@@ -34,7 +34,7 @@ Game Instructions:
 
 - The rocky outcrops are marked in grey.
 
-- Deploy your thumper by pressing the spacebar.
+- Deploy a thumper by pressing the spacebar.
 
 - You control your movement using the arrow keys.
 
